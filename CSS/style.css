@@ -1,0 +1,308 @@
+
+
+body {
+   
+    font-family: 'Noto Sans', 'Helvetica', sans-serif;  
+    overflow-x: auto;
+
+}
+
+#nikonLogoId {
+    width: 68px;
+    height: 68px;
+    margin-top: 20px;
+    margin-left: 12%;
+}
+
+#globalId {
+    margin-top: 10px;
+    margin-right: 150px;
+    float: right;
+    font-size: 13.5px;
+    width: 90px;
+    text-align: right;
+}
+
+.lists {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 12%;
+    margin-bottom: 15px;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+}
+
+li a {
+    
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    color: hsl(0, 0%, 24%);
+    text-align: center;
+    padding: 6px;
+    margin-top: 32px;
+    font-size: 20px;
+    margin-right: 18px;
+
+}
+#searchInputId {
+    width: 170px;
+    height: 20px;
+    border-color: 0.1px solid #E2D7D7;
+
+}
+
+#submitBtnId {
+    background-image: url('../Images/search.png');
+    border-color: 0.1px solid #E2D7D7;
+    width: 40px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    border: 0.5px solid lightgray;
+    margin-right: 150px;
+
+}
+
+#searchContainerId {
+    height: 40px auto;
+    width: 210px auto;
+    margin-top: 20px;
+    
+
+}
+
+#global_searchContainerId {
+    float: right;
+    margin-right: 0px;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration-color: yellow;
+    text-decoration-line: underline;
+    text-underline-position: under;
+
+}
+
+li a:active {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    text-decoration-color: yellow;
+}
+
+
+#homeId {
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+    text-underline-position: under;
+}
+
+#knowNikonId {
+    /*background-image: url('../Images/introduction_image1.png');*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#Products_Solutions {
+    background-color: lightgray;
+    width: 100%;
+    height: 200px;
+}
+
+#camerasId {
+    margin-left: 60px;
+    padding-top: 20px;
+    }
+
+#machinesId {
+    float: right;
+    margin-right: 60px;
+}
+
+#homeProductsId {
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    color: #212F3D;
+    text-align: center;
+    padding-right: 90px;
+
+}
+
+
+
+#learnmoreBtnId {
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    color: #212F3D;
+}
+
+.tableResponsidveId {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: separate;
+}
+
+th,td {
+    text-align: left;
+
+}
+
+.firstTable {
+    width: 33%;
+}
+
+
+.customTableImg {
+    margin-top: 2px;
+    width: 100%;
+    height: 300px;
+}
+
+.linkStyle {
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 20px;
+    }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+.paragraphStyle {
+    font-size: 18px;
+    color: #2A2929;
+    letter-spacing: 0.3px;
+    padding-left: 20px;
+}
+
+.secondTable {
+    width: 25%;
+}
+
+#latestNewsId {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+#latestNewsTitleId {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #2A2929;
+    border-bottom: 1px solid lightgray;
+    width: 85%;
+    }
+
+#icon_rssId {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 0px;
+}
+
+.news {
+    font-size: 20px;
+    color: #2A2929;
+
+}
+
+.newsLinks {
+    color: #0014cc; 
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    padding-left: 3px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#latestNewsId {
+    padding-bottom: 130px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 450px;
+}
+
+h3 {
+    padding-top: 40px;
+    padding-left: 150px;
+    color: #212F3D;
+}
+
+.footerLinks {
+    color: #212F3D;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+
+}
+
+.footerLinksId, .footerAboutusLinks{
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.footerAboutusLinks {
+    padding-top: 15px;
+    }
+
+.footerLinksClass {
+    color: #212F3D;
+    text-decoration: none;
+
+
+}
+
+h4 {
+    /*padding-left: 150px;*/
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 35px;
+    letter-spacing: 0.3px;
+    color: #212F3D;
+    border-bottom: 1px solid lightgray;
+    width: 85%;
+    border-spacing: 20px;
+}
+
+.corporationLinks {
+    color: #212F3D;
+    font-size: 13px;
+    text-decoration: none;
+    padding-right: 13px;
+    padding-top: 50px;
+}
+
+#corporationId {
+    padding-left: 150px;
+
+}
+
